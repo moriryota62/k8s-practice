@@ -1,7 +1,7 @@
 # 1.Beiginner(初級)
-まずはkubectlの使い方やPod、ServiceなどK8sの中でも基礎的なリソースについて学びます。また、よく使う簡単なPod設定についても触れていきます。
+まずはkubectlの使い方やPod、ServiceなどK8sの中でも基礎的なリソースについて学びます。また、よく使うPod設定についても学んでいきます。
 
-## 出てくるキーワード
+## 目次
 - クラスタの操作
   - [kubectl](1-1.kubectl.md)
 - K8sリソース
@@ -10,5 +10,3 @@
 - Pod設定
   - [volume](1-4.Pod-volume.md)
   - [env](1-5.Pod-env.md)
-
-
