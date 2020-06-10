@@ -3,7 +3,7 @@
 
 ## 出てくるキーワード
 - クラスタの操作
-  - [kubectl](1-1-kubectl.md)
+  - [kubectl](1-1.kubectl.md)
 - K8sリソース
   - Deployment
   - ReplicaSet
