@@ -3,10 +3,10 @@
 
 ## 目次
 - クラスタの操作
-  - [kubectl](1-1.kubectl.md)
+  - [kubectl](1-01.kubectl.md)
 - K8sリソース
-  - [Deployment](1-2.Deployment.md)
-  - [Service(ClusterIP)](1-3.Service-ClusterIP.md)
+  - [Deployment](1-02.Deployment.md)
+  - [Service(ClusterIP)](1-03.Service-ClusterIP.md)
 - Pod設定
-  - [volume](1-4.Pod-volume.md)
-  - [env](1-5.Pod-env.md)
+  - [volume](1-04.Pod-volume.md)
+  - [env](1-05.Pod-env.md)
