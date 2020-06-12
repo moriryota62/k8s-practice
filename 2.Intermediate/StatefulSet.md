@@ -6,7 +6,7 @@
 StatefulSetはDeployment（ReplicaSet）と同じく指定した数のPodを常に起動するようにするリソースです。違いとしては以下の3つです。わかりやすい1つ目と2つ目の動作をまず確認します。3つ目は長くなるので別データであつかいます。
 - 起動するPod名に連番が付与される（Deploymentはランダム文字列）
 - 名前の連番通りにPodを1つずつ起動し、前のPodが起動完了してから次のPodを起動する。（Deploymentは起動順を気にしない）
-- 各PodごとにPVを割り当てるvolumeClaimTemplateが使える（Deploymentでは使えない）
+- 各PodごとにPVを割り当てるvolumeClaimTemplateが使える（Deploymentでは使えない）
 StatefulSetはDBなどのワークロードを想定したリソースです。たとえば3ノードのDBだとMaster:1,Slave:2の構成などにすると思います。この際、Masterをまず起動し、次いでSlaveを起動します。このような順番を意識した起動はDeploymentではできないため、StatefulSetを使います。またHeadless Serviceを使った特定Podへのアクセスを行うこともあります。
 
 1. 以下を満たすマニフェストを作成しデプロイしてください。なお、StatefulSetについては[公式ドキュメント](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)を参考にしてください。
