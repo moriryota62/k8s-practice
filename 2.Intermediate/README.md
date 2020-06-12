@@ -14,7 +14,7 @@
   - [2-07.Namespace](Namespace.md)
   - [2-08.DaemonSet](DaemonSet.md)
   - [2-09.StatefulSet](StatefulSet.md)
-  - [2-10.StatefulSet](StatefulSet-volumeClaimTemplate.md)
+  - [2-10.StatefulSet-volumeClaimTemplate](StatefulSet-volumeClaimTemplate.md)
   - [2-11.Job](Job.md)
   - [2-12.CronJob](CronJob.md)
   - [2-13.ConfigMap](ConfigMap.md)
