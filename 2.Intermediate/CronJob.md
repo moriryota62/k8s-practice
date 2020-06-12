@@ -40,4 +40,4 @@ CronJobはJobを定期的に自動実行するリソースです。時間はCron
 4. ConfigMap、Deployment、Service、CronJobを削除してください。
 ---
 
-次： [ConfigMap](ConfigMap.md)  
+次： [LimitRange](LimitRange.md)  
