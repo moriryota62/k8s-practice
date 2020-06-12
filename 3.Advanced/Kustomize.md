@@ -17,7 +17,7 @@ Kustomizeはマニフェスト管理に役立つコマンドラインツール�
    - Deployment
      - replica:1
      - コンテナイメージはnginx:1.12
-     - ConfigMap:env-configのENVを環境変数ENVに格納
+     - ConfigMap:env-configのENVを環境変数ENVに格納
    - Service
      - 上記DeploymentをClusterIP:80で公開
    - ConfigMap
@@ -60,7 +60,7 @@ Kustomizeはマニフェスト管理に役立つコマンドラインツール�
       - replicas: 2
       - resources.requests.memory: 50Mi
 10. 上記オーバーライドした内容が反映されていることを確認してください。
-11. Podの/usr/share/nginx/html/index.htmlの内容を環境変数ENVの値とし、各環境で表示を変えたい。kustomize/base配下のみを修正し実装してください。
+11. Podの/usr/share/nginx/html/index.htmlの内容を環境変数ENVの値とし、各環境で表示を変えたい。kustomize/base配下のみを修正し実装してください。
 12. curlが実行可能なPodを展開し、prodとdevそれぞれにcurlしてください。各環境名が表示されること
 13. curl、dev、prodをすべて削除してください。
 
