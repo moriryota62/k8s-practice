@@ -88,4 +88,4 @@ volumeClaimTemplateはPodごとにPVCおよびPVを作成する、StatefulSetで
 
 ---
 
-次： [Job](Job.md)  
+次： [ConfigMap(env)](ConfigMap-env.md)  

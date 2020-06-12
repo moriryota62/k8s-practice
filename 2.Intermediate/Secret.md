@@ -1,7 +1,7 @@
-前： [ConfigMap](ConfigMap.md)  
+前： [ConfigMap(mount)](ConfigMap-mount.md)  
 
 ---
 
 ---
 
-次： [LimitRange](LimitRange.md)  
+次： [Job](Job.md)  
