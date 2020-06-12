@@ -71,7 +71,7 @@ kubectl exec curl-<乱数> -- curl -s test
 kubectl delete deployment curl
 kubectl delete srvice test
 ```
-1.  以下サンプルマニフェストを使い、2つのコンテナを内包したPodをデプロイします。
+16.  以下サンプルマニフェストを使い、2つのコンテナを内包したPodをデプロイします。
 ``` yaml
 apiVersion: v1
 kind: Pod
