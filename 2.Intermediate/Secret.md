@@ -19,6 +19,7 @@ SecretはConfigMapとほぼ一緒の使い方ができるリソースです。�
 6. SecretとDeploymentを削除
 
 このように、SecretではK8sにアクセス可能な人ならだれでも値が知れてしまうので注意が必要です。また、Gitなどにマニフェストを置く時はSecretをさらに暗号化する仕組み(kubesec,sealedsecret,vault)を併用しましょう。
+
 ---
 
 次： [Job](Job.md)  
