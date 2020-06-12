@@ -46,4 +46,4 @@ K8sにはRBACの仕組みがあります。ユーザまたはK8s内のオブジ�
 
 ---
 
-次： [3.Advanced](../3.Advanced)  
+次： [3.Advanced](../../3.Advanced)  

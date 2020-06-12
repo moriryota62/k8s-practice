@@ -4,7 +4,7 @@
 
 # LimitRange
 LimitRangeはNamespace内のPodやPVCに対して設定できるHWリソース量の制限やデフォルト値を設けるリソースです。Namespaceに属します。ResourceQuotaとは違い、Podやコンテナに対して制限を設定します。Pod(コンテナ)のHWリソース量はlimitsとrequestsで指定できますが、LimitRangeはそのlimitsとrequestsで指定できる値の範囲に制限を設けます。制限はコンテナ単位やコンテナを合算したPod単位で設けることができます。また、PVCで指定するボリュームサイズに対しても制限を設けることができます。
-さらに、LimitRangeはHWリソース量のデフォルト値を設定することもできます。後述する[HPA](../3.Advanced/HorizontalPodAutoscaler.md)を使う環境では基本的にすべてのPod（コンテナ）に対してresourcesを設定することが望ましいです。とはいえ、設定し忘れることもあるのでデフォルト値を指定しておけばより安全です。
+さらに、LimitRangeはHWリソース量のデフォルト値を設定することもできます。後述する[HPA](../../3.Advanced/HorizontalPodAutoscaler.md)を使う環境では基本的にすべてのPod（コンテナ）に対してresourcesを設定することが望ましいです。とはいえ、設定し忘れることもあるのでデフォルト値を指定しておけばより安全です。
 
 ## コンテナの上限設定
 まずはコンテナのHWリソース量の指定上限について確認します。
@@ -140,7 +140,7 @@ LimitRangeはNamespace内のPodやPVCに対して設定できるHWリソース�
 2. Podの詳細を確認し、limitsとrequestsが設定されていることを確認してください。
 3. DeploymentとLimitRangeを削除する。
 
-このようにLimitRangeでコンテナのデフォルトresourcesを設定することができます。デフォルトlimitsのみでrequestsを指定しない場合はlimitsと同じ値が設定されます。（resourceの時と同じです。）  
+このようにLimitRangeでコンテナのデフォルトresourcesを設定できます。デフォルトlimitsのみでrequestsを指定しない場合はlimitsと同じ値が設定されます。（resourceの時と同じです。)  
 
 ---
 

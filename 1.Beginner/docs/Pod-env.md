@@ -25,4 +25,4 @@
 
 ---
 
-次： [2.Intermediate](../2.Intermediate)
+次： [2.Intermediate](../../2.Intermediate)

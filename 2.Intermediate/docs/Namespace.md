@@ -4,7 +4,7 @@
 
 # Namespace
 NamespaceはK8sクラスタを論理的に分割した区画です。複数の顧客向けサービスの提供（マルチテナント）や複数チームでK8sクラスタを共有
-する時に使います。デフォルトでは「kube-system」や「default」などのNamespaceが用意されています。（K8sサービスによっては他のNamespaceがあるかもしれません）　Namespace単位で使用できるHWリソースの上限を設定したり、Namespace間の通信制御を行うこともできます。ただし、それらを行うには別のK8sリソース（[ResourceQuota](ResourceQuota.md)、[NetworkPolicy](../3.Advanced/NetworkPolicy.md)）を使用します。デフォルトでは同じK8sクラスタ内のNamespace間は自由に通信可能です。実は今まで意識して来ませんでしたが、Namespaceを指定しない場合はdefaultのNamespaceを使用しています。
+する時に使います。デフォルトでは「kube-system」や「default」などのNamespaceが用意されています。（K8sサービスによっては他のNamespaceがあるかもしれません）　Namespace単位で使用できるHWリソースの上限を設定したり、Namespace間の通信制御を行うこともできます。ただし、それらを行うには別のK8sリソース（[ResourceQuota](ResourceQuota.md)、[NetworkPolicy](../../3.Advanced/NetworkPolicy.md)）を使用します。デフォルトでは同じK8sクラスタ内のNamespace間は自由に通信可能です。実は今まで意識して来ませんでしたが、Namespaceを指定しない場合はdefaultのNamespaceを使用しています。
 
 1. Namespaceリソースのオブジェクト一覧を表示してください。
 2. Namespace:kube-systemに属するPodリソースのオブジェクト一覧を表示してください。

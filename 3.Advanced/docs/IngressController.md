@@ -5,7 +5,7 @@
 # Ingress Controller
 IngressはServiceの外部公開を制御するリソースおよびアドオン機能です。L7ロードバランサの様なものです。Ingressはその動作をコントロールするIngress ControllerをPodとしてクラスタにアドオンします。さらに、Ingress Controllerの動作設定を行うIngressリソース（こちらはK8sのリソース）を組み合わせて使います。
 
-Kubernetes外からアクセスを受ける方法として、[Service Type:LB](../2.Intermediate/Service-LB.md)を紹介しました。Service Type:LBはとても便利ですが問題もあります。それはServiceごとにクラウドのLBができてしまう点です。たくさんのServiceを外部に公開したい場合、その数だけLBができてしまうのは管理、コストの面で問題となりえます。また、他の外部公開の方法としてService Type:NodePortという手段もありますが、この公開方法だとServiceの公開ポートで同じ番号が使えず、よく使う80や443で公開できるServiceが限られてしまいます。
+Kubernetes外からアクセスを受ける方法として、[Service Type:LB](../../2.Intermediate/Service-LB.md)を紹介しました。Service Type:LBはとても便利ですが問題もあります。それはServiceごとにクラウドのLBができてしまう点です。たくさんのServiceを外部に公開したい場合、その数だけLBができてしまうのは管理、コストの面で問題となりえます。また、他の外部公開の方法としてService Type:NodePortという手段もありますが、この公開方法だとServiceの公開ポートで同じ番号が使えず、よく使う80や443で公開できるServiceが限られてしまいます。
 
 Ingressを使うとこれらの問題を解決する事ができます。外部への公開はIngress用のService Type:LBが受け、Ingress Controllerに集約させます。Ingress ControllerはリクエストのURLを見てしかるべきServiceにリクエストを流します。このURLと転送先Serviceの設定はIngressリソースで定義します。
 
