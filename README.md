@@ -11,9 +11,9 @@ K8s practice は大きく以下の3つのレベルに分けています。レベ
 
 |レベル|内容|
 |-|-|
-|Beiginner|初級レベルです。kubectlやPodなど基礎となるリソースについて扱います。|
-|Intermediate|中級レベルです。K8s標準で使えるリソースを扱います。|
-|Advanced|上級レベルです。アドオンを追加することで使用できるリソースを扱います。|
+|[Beiginner](1.Beginner)|初級レベルです。kubectlやPodなど基礎となるリソースについて扱います。|
+|[Intermediate](2.Intermediate)|中級レベルです。K8s標準で使えるリソースを扱います。|
+|[Advanced](3.Advanced)|上級レベルです。アドオンを追加することで使用できるリソースを扱います。|
 
 ## 前提
 K8sクラスタを用意してください。また、kubectlでクラスタに接続できる状態としてください。これらを準備する手順としては[Amazon EKSの開始方法](https://docs.aws.amazon.com/ja_jp/eks/latest/userguide/getting-started.html)などを参考にしてください。
