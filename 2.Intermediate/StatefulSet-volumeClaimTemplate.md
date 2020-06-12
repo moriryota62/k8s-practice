@@ -4,7 +4,7 @@
 
 # StatefulSet volumeClaimTemplate
 
-### PVC指定の場合
+## PVC指定の場合
 volumeClaimTemplateはPodごとにPVCおよびPVを作成する、StatefulSetで使える機能です。この機能を理解するため、Deploymentでのボリュームプロビジョニングの特徴をおさらいします。
 
 ※ ワーカーノードを2台以上にしてください。
@@ -40,7 +40,7 @@ volumeClaimTemplateはPodごとにPVCおよびPVを作成する、StatefulSetで
 
 ここまでがDeploymentでのボリュームプロビジョニングのおさらいです。注目するポイントとしては展開したPodすべてで同じボリュームを共有する点です。そのため、PVCおよびPVは1つしか作られません。ボリュームの中身もすべてのPodで共有します。なので、たとえばWEBサーバなどのワークロードでセッション情報をPod間で共有したいなどと言った場合にはこの構成が有効です。一方で、DBなどのワークロードで各Podが専用のボリュームを確保したい場合には適しません。また、今回はPVCでstorageClassNameを指定しなかったためデフォルトのStorageClassであるEBSのtype:gp2(EKSの場合)で実際のボリュームは作られています。EBSは単一のEC2インスタンスにしかボリュームを提供できません。そのため、replica数が増えても単一のワーカーノード（EC2）にしかPodがスケジュールできません。replica数を2以上にするDeploymentでDVPするときは、EBSではなくEFSなどRead/Write Anyできるボリュームが使えるStorageClassを使用した方が良いです。  
 
-### volumeClaimTemplateの場合
+## volumeClaimTemplateの場合
 つぎに、StatefulSetでvolumeClaimTemplateを使用した場合の挙動を確認します。
 
 1. 以下を満たすマニフェストを作成しデプロイしてください。なお、volumeClaimTemplateについては[公式ドキュメント](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#components)を参考にしてください。
