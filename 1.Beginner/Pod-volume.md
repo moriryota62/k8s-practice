@@ -1,4 +1,4 @@
-前： [1-03.Service-ClusterIP](1-03.Service-ClusterIP.md)  
+前： [Service-ClusterIP](Service-ClusterIP.md)  
 
 ---
 
@@ -44,4 +44,4 @@ Podのボリュームは一時的なものでありPodが消えると失われ�
 
 ---
 
-次： [1-05.Pod-env](1-05.Pod-env.md)
+次： [Pod-env](Pod-env.md)

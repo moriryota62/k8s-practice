@@ -1,4 +1,4 @@
-前： [2-03.Pod-resources](2-03.Pod-resources.md)  
+前： [Pod-resources](Pod-resources.md)  
 
 
 ---
@@ -79,4 +79,4 @@ K8sが意識するPodの状態はコンテナのメインプロセスがある�
 
 ---
 
-次： [2-05.Pod-initContainer](2-05.Pod-initContainer.md)  
+次： [Pod-initContainer](Pod-initContainer.md)  

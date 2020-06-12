@@ -1,4 +1,4 @@
-前： [2-04.Pod-Probe](2-04.Pod-Probe.md)  
+前： [Pod-Probe](Pod-Probe.md)  
 
 ---
 
@@ -34,4 +34,4 @@ Pod内のメインコンテナを起動する前に一時的なコンテナをPo
 
 ---
 
-次： [2-06.Pod-nodeSelector](2-06.Pod-nodeSelector.md)  
+次： [Pod-nodeSelector](Pod-nodeSelector.md)  

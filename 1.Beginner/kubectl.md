@@ -120,4 +120,4 @@ spec:
 
 ---
 
-次： [1-02.Deployment](1-02.Deployment.md)
+次： [Deployment](Deployment.md)

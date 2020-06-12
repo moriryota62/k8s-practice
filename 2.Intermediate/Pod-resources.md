@@ -1,4 +1,4 @@
-前： [2-02.Service-LB](2-02.Service-LB.md)  
+前： [Service-LB](Service-LB.md)  
 
 ---
 
@@ -41,4 +41,4 @@ Podはとくに指定がない場合、ワーカーノードのHWリソース（
 
 ---
 
-次： [2-04.Pod-Probe](2-04.Pod-Probe.md)  
+次： [Pod-Probe](Pod-Probe.md)  

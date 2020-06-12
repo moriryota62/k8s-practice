@@ -1,4 +1,4 @@
-前： [1-02.Deployment](1-02.Deployment.md)  
+前： [Deployment](Deployment.md)  
 
 ---
 
@@ -63,4 +63,4 @@ kubectl exec curl-<乱数> -- curl -s nginx-svc
 
 ---
 
-次： [1-04.Pod-volume](1-04.Pod-volume.md)
+次： [Pod-volume](Pod-volume.md)

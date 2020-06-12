@@ -1,4 +1,4 @@
-前： [2-07.Namespace](2-07.Namespace.md)  
+前： [Namespace](Namespace.md)  
 
 ---
 
@@ -21,4 +21,4 @@ DaemonSetは常にすべてのワーカーノードで同じPodを起動するPo
 
 ---
 
-次： [2-09.StatefulSet](2-09.StatefulSet.md)  
+次： [StatefulSet](StatefulSet.md)  

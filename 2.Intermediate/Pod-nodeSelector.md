@@ -1,4 +1,4 @@
-前： [2-05.Pod-initContainer](2-05.Pod-initContainer.md)  
+前： [Pod-initContainer](Pod-initContainer.md)  
 
 ---
 
@@ -33,4 +33,4 @@ Podはマスターコンポーネントのkube-schedulerによって起動する
 
 ---
 
-次： [2-07.Namespace](2-07.Namespace.md)  
+次： [Namespace](Namespace.md)  

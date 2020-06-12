@@ -1,4 +1,4 @@
-前： [2-01.DynamicVolumeProvisioning](2-01.DynamicVolumeProvisioning.md)    
+前： [DynamicVolumeProvisioning](DynamicVolumeProvisioning.md)    
 
 ---
 
@@ -33,4 +33,4 @@
 
 ---
 
-次： [2-03.Pod-resources](2-03.Pod-resources.md)  
+次： [Pod-resources](Pod-resources.md)  

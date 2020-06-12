@@ -1,4 +1,4 @@
-前： [1-01.kubectl](1-01.kubectl.md)  
+前： [kubectl](kubectl.md)  
 
 ---
 
@@ -20,4 +20,4 @@ Deploymentはもっとも基本的なPod Controllerリソースです。通常�
 
 ---
 
-次： [1-03.Service-ClusterIP](1-03.Service-ClusterIP.md)
+次： [Service-ClusterIP](Service-ClusterIP.md)

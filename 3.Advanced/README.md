@@ -3,17 +3,17 @@
 
 ## 目次
 - オートスケール
-  - [3-01.MetricsServer](3-01.MetricsServer.md)
-  - [3-02.HorizontalPodAutoscaler](3-02.HorizontalPodAutoscaler.md)
-  - [3-03.ClusterAutoscaller](3-03.ClusterAutoscaller.md)
-  - [3-04.descheduler](3-04.descheduler.md)
+  - [3-01.MetricsServer](MetricsServer.md)
+  - [3-02.HorizontalPodAutoscaler](HorizontalPodAutoscaler.md)
+  - [3-03.ClusterAutoscaller](ClusterAutoscaller.md)
+  - [3-04.descheduler](descheduler.md)
 - L7ロードバランシング
-  - [3-05.IngressController](3-05.IngressController.md)
-  - [3-06.Ingress](3-06.Ingress.md)
+  - [3-05.IngressController](IngressController.md)
+  - [3-06.Ingress](Ingress.md)
 - 通信制御
-  - [3-07.NetworkPolicy](3-07.NetworkPolicy.md)
+  - [3-07.NetworkPolicy](NetworkPolicy.md)
 - ストレージタイプの追加
-  - [3-08.StorageClass](3-08.StorageClass.md)
+  - [3-08.StorageClass](StorageClass.md)
 - マニフェスト管理
-  - [3-09.Kustomize](3-09.Kustomize.md)
+  - [3-09.Kustomize](Kustomize.md)
 
