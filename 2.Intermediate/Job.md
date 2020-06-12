@@ -1,4 +1,4 @@
-前： [StatefulSet](StatefulSet.md)  
+前： [StatefulSet-volumeClaimTemplate](StatefulSet-volumeClaimTemplate.md)  
 
 ---
 
