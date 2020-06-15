@@ -16,7 +16,7 @@ Deploymentはもっとも基本的なPod Controllerリソースです。通常�
 3. 作成したnginx-XXXXXXという名前のPodを削除してください。(Deploymentは消しちゃだめ！)　再度Podを確認し、さきほどとは違う名前のPodが作成されていることを確認してください。
 4. マニフェストを修正しDeploymentのreplicaを``2``にしてください。
 5. 再度Podを確認しPodが増えていることを確認してください。
-6. (``1-03.Service-Cluster``を実施しない場合はDeploymnet:nginを削除してください。)
+6. (``1-03.Service-Cluster``を実施しない場合はDeploymnet:nginxを削除してください。)
 
 ---
 

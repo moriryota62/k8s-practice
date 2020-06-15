@@ -75,7 +75,7 @@ K8sが意識するPodの状態はコンテナのメインプロセスがある�
    ```
 27. しばらく（30秒ほど）してからPodリソースのオブジェクト一覧を確認し、Podの``RESTARTSが増えている``ことを確認する。
 28. セルフ・ヒーリングされてから60秒ほどたったあとにPodの``READYが1/1``となり作業端末のwebブラウザからService経由で接続すると「Welcome to nginx!」が``表示される``こと。
-29. Deployment:probeおよびService:prove-svcを削除
+29. Deployment:probeおよびService:probe-svcを削除
 
 ---
 
