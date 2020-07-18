@@ -3,7 +3,7 @@
 ---
 
 # Pod設定 postStart/preStop
-Pod内のコンテナ起動後とコンテナ停止前に任意のコマンドを実行できます。その設定がlifecycleのpostStartとpreStopです。とくにpreStopは重要で、コンテナ(Pod)はいつでも安全な停止ができるようにします。Podを手動で停止(kubectl delete)すると、SIGTARMが送られ30秒の猶予期間後にSIGKILLでプロセス強制終了となります。SIGTARMやSIGKILLで終了したくないコンテナにはPreStopでプロセスの終了コマンドを実行します。また、postStartはコンテナ起動時に実行されるコマンドですが、プロセス起動前に実行されることは保証されません。そのため、プロセス起動前に行いたい処理はinitContainerでの実行やコンテナ起動コマンドに埋め込むなどしてください。
+Pod内のコンテナ起動後とコンテナ停止前に任意のコマンドを実行できます。その設定がlifecycleのpostStartとpreStopです。とくにpreStopはコンテナ(Pod)をいつでも安全な停止ができるようにするため重要です。Podを手動で停止(kubectl delete)すると、SIGTARMが送られ30秒の猶予期間後にSIGKILLでプロセス強制終了となります。SIGTARMやSIGKILLで終了したくないコンテナにはpreStopでプロセスの終了コマンドを実行しましょう。また、postStartはコンテナ起動時に実行されるコマンドですが、プロセス起動前の実行は保証されません。そのため、プロセス起動前に行いたい処理はinitContainerやコンテナ起動コマンドに埋め込むなどしてください。
 
 1. 以下を満たすマニフェストを作成しデプロイしてください。なお、lifecycleについては[公式ドキュメント](https://kubernetes.io/ja/docs/tasks/configure-pod-container/attach-handler-lifecycle-event/)を参考にしてください。
   - Deployment

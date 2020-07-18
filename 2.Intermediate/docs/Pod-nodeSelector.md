@@ -33,4 +33,4 @@ Podはマスターコンポーネントのkube-schedulerによって起動する
 
 ---
 
-次： [PostStart/PreStop](Pod-lifecycle.md)
+次： [postStart/preStop](Pod-lifecycle.md)

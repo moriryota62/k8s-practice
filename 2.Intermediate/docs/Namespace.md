@@ -1,4 +1,4 @@
-前： [PostStart/PreStop](Pod-lifecycle.md)  
+前： [postStart/preStop](Pod-lifecycle.md)  
 
 ---
 
