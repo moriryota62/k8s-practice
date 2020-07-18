@@ -10,7 +10,7 @@
   - [2-04.liveness/readiness Probe](docs/Pod-Probe.md)
   - [2-05.initContainer](docs/Pod-initContainer.md)
   - [2-06.nodeSelector](docs/Pod-nodeSelector.md)
-  - [2-07.PostStart/PreStop](docs/Pod-lifecycle.md)
+  - [2-07.postStart/preStop](docs/Pod-lifecycle.md)
 - K8sリソース
   - [2-08.Namespace](docs/Namespace.md)
   - [2-09.DaemonSet](docs/DaemonSet.md)
