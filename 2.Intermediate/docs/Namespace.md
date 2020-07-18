@@ -1,4 +1,4 @@
-前： [Pod-nodeSelector](Pod-nodeSelector.md)  
+前： [PostStart/PreStop](Pod-lifecycle.md)  
 
 ---
 
